@@ -10,6 +10,7 @@ import { Data1Component } from './data1/data1.component';
 import { Data2Component } from './data2/data2.component';
 import { FileSolomonComponent } from './file-solomon/file-solomon.component';
 import { FilevenkyComponent } from './filevenky/filevenky.component';
+import { Newcom1Component } from './newcom1/newcom1.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FilevenkyComponent } from './filevenky/filevenky.component';
     Data1Component,
     Data2Component,
     FileSolomonComponent,
-    FilevenkyComponent
+    FilevenkyComponent,
+    Newcom1Component
   ],
   imports: [
     BrowserModule,

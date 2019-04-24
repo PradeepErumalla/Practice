@@ -12,6 +12,8 @@ import {Data2Component} from './data2/data2.component';
 import {FileSolomonComponent} from './file-solomon/file-solomon.component';
 //5
 import {FilevenkyComponent} from './filevenky/filevenky.component';
+//6
+import {Newcom1Component} from './newcom1/newcom1.component';
 
 const routes: Routes = [
 { path:'home', component:HomeComponent},
@@ -20,7 +22,8 @@ const routes: Routes = [
 { path:'data1', component:Data1Component},
 { path:'data2', component:Data2Component},
 { path:'file-solomon', component:FileSolomonComponent},
-{ path:'filevenky', component:FilevenkyComponent}
+{ path:'filevenky', component:FilevenkyComponent},
+{ path:'newcom1',component:Newcom1Component}
 ];
 
 @NgModule({
