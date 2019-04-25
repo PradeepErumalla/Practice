@@ -26,7 +26,8 @@ const routes: Routes = [
 { path:'newcom1',component:Newcom1Component},
 { path:'books', loadChildren:"./books/books.module#BooksModule"},
 { path:'movies', loadChildren:"./movies/movies.module#MoviesModule"},
-{ path:'food', loadChildren:"./food/food.module#FoodModule"}
+{ path:'food', loadChildren:"./food/food.module#FoodModule"},
+{ path: 'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"}
 ];
 
 @NgModule({
