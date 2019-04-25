@@ -23,7 +23,10 @@ const routes: Routes = [
 { path:'data2', component:Data2Component},
 { path:'file-solomon', component:FileSolomonComponent},
 { path:'filevenky', component:FilevenkyComponent},
-{ path:'newcom1',component:Newcom1Component}
+{ path:'newcom1',component:Newcom1Component},
+{ path:'books', loadChildren:"./books/books.module#BooksModule"},
+{ path:'movies', loadChildren:"./movies/movies.module#MoviesModule"},
+{ path:'food', loadChildren:"./food/food.module#FoodModule"}
 ];
 
 @NgModule({

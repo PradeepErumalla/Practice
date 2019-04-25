@@ -11,6 +11,7 @@ import { Data2Component } from './data2/data2.component';
 import { FileSolomonComponent } from './file-solomon/file-solomon.component';
 import { FilevenkyComponent } from './filevenky/filevenky.component';
 import { Newcom1Component } from './newcom1/newcom1.component';
+// import { MoviesModule } from './movies/movies.module';
 
 @NgModule({
   declarations: [
@@ -22,11 +23,13 @@ import { Newcom1Component } from './newcom1/newcom1.component';
     Data2Component,
     FileSolomonComponent,
     FilevenkyComponent,
-    Newcom1Component
+    Newcom1Component,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    // MoviesModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
