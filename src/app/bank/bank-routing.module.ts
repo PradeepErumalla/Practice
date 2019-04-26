@@ -4,7 +4,8 @@ import { BankComponent } from './bank.component';
 
 const routes: Routes = [
   { path :'', redirectTo: 'bank', pathMatch: 'full'},
-  {path:'bank', component:BankComponent}
+  { path:'bank', component:BankComponent},
+  { path:'bankbranches',loadChildren:"./bankbranches/bankbranches.module#BankbranchesModule"}
 ];
 
 @NgModule({
