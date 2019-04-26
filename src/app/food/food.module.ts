@@ -6,7 +6,10 @@ import { FoodComponent } from './food.component';
 import { FoodtypesComponent } from './foodtypes/foodtypes.component';
 
 @NgModule({
-  declarations: [FoodComponent, FoodtypesComponent],
+  declarations: [
+    FoodComponent,
+     FoodtypesComponent
+    ],
   imports: [
     CommonModule,
     FoodRoutingModule

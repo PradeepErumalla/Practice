@@ -16,6 +16,7 @@ import {FilevenkyComponent} from './filevenky/filevenky.component';
 import {Newcom1Component} from './newcom1/newcom1.component';
 
 const routes: Routes = [
+
 { path:'home', component:HomeComponent},
 { path:'about', component:AboutComponent},
 { path:'header', component:HeaderComponent},
