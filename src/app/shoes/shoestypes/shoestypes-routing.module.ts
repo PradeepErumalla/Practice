@@ -5,7 +5,7 @@ import { BrandedComponent } from './branded/branded.component';
 import { NonbrandedComponent } from './nonbranded/nonbranded.component';
 
 const routes: Routes = [
-  { path :'', redirectTo: 'shoestypes', pathMatch: 'full'},
+ { path :'', redirectTo: 'shoestypes', pathMatch: 'full'},
   { path:'shoestypes',component:ShoestypesComponent},
   { path:'branded',component:BrandedComponent},
   { path:'nonbranded',component:NonbrandedComponent}  

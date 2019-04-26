@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ShoestypesRoutingModule } from './shoestypes-routing.module';
-import { ShoestypesComponent } from './shoestypes.component';
+import { ShoestypesComponent } from '../shoestypes/shoestypes.component';
 import { BrandedComponent } from './branded/branded.component';
 import { NonbrandedComponent } from './nonbranded/nonbranded.component';
 
@@ -10,7 +10,8 @@ import { NonbrandedComponent } from './nonbranded/nonbranded.component';
   declarations: [
     ShoestypesComponent,
     BrandedComponent,
-    NonbrandedComponent],
+    NonbrandedComponent
+  ],
   imports: [
     CommonModule,
     ShoestypesRoutingModule
