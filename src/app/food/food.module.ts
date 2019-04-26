@@ -12,4 +12,4 @@ import { FoodtypesComponent } from './foodtypes/foodtypes.component';
     FoodRoutingModule
   ]
 })
-export class FoodModule { }
+export class FoodModule { } 

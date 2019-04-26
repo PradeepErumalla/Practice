@@ -27,7 +27,8 @@ const routes: Routes = [
 { path:'books', loadChildren:"./books/books.module#BooksModule"},
 { path:'movies', loadChildren:"./movies/movies.module#MoviesModule"},
 { path:'food', loadChildren:"./food/food.module#FoodModule"},
-{ path: 'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"}
+{ path:'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"},
+{ path:'bank', loadChildren:"./bank/bank.module#BankModule"}
 ];
 
 @NgModule({
