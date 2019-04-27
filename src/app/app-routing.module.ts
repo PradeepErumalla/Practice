@@ -3,10 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-
-
-{ path:'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"},
-{ path:'bank', loadChildren:"./bank/bank.module#BankModule"}
+{ path:'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"}
 ];
 
 @NgModule({
