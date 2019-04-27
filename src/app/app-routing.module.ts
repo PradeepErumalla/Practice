@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { BooksComponent } from './books/books.component';
+
 
 
 const routes: Routes = [
-{ path:'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"}
+{ path:'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"},
+{ path:'books', component:BooksComponent}
 ];
 
 @NgModule({
