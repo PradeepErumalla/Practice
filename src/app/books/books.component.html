@@ -1,3 +1,44 @@
-<p>
-  books works!
-</p>
+<!-- 
+<table class="table">
+  <thead>
+    <tr>
+      <th>Friends</th>
+       </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let friend of friends, let i = index" (click)="onClick(i)">
+      <td [ngClass]="{'color': indexValue === i}">{{i}} {{friend}}</td>
+    </tr>
+ 
+  </tbody>
+</table> -->
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Friends</th>
+       </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let friend of friends">
+      <td>{{friend}}</td>
+    </tr>
+ 
+  </tbody>
+</table>
+fsdsdgsdgfgsdgsdgfgdgdgsg
+
+<!-- table 2 -->
+<!-- <table class="table">
+  <thead>
+    <tr>
+      <th>Friends Even Odd Colors</th>
+       </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let friend of friends, let i = index" (click)="onClick(i)">
+      <td [ngClass]="{'even': (((i+1)/2)===0),'odd': ((i+1/2)!=0)}">{{i+1}} {{friend}}</td>
+    </tr>
+ 
+  </tbody>
+</table> -->

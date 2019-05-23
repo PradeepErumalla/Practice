@@ -5,8 +5,7 @@ import { BooksComponent } from './books/books.component';
 
 
 const routes: Routes = [
-{ path:'shoes', loadChildren:"./shoes/shoes.module#ShoesModule"},
-{ path:'team', loadChildren:"./team/team.module#TeamModule"},
+ //{ path :'', redirectTo: 'books', pathMatch: 'full'}, 
 { path:'books', component:BooksComponent}
 ];
 

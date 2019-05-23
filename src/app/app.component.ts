@@ -12,7 +12,10 @@ export class AppComponent {
   title = 'AngularProject';
   clickCondition=true;
   
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    console.log("app loading");
+    
+  }
 
   clickFunc(){
     this.clickCondition = !this.clickCondition; 
